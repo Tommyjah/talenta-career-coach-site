@@ -6,57 +6,137 @@
   <title>Talenta AI Career Coach</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: "Segoe UI", sans-serif;
       margin: 0;
-      background: #f5f5f5;
+      padding: 0;
+      background-color: #f7f9fc;
       color: #333;
+    }
+
+    header {
+      background-color: #004225;
+      color: white;
+      padding: 2rem 1rem;
       text-align: center;
     }
-    header {
-      background: #00aa66;
-      color: white;
-      padding: 1.5em;
+
+    header img {
+      width: 120px;
+      margin-bottom: 1rem;
     }
+
     .container {
-      padding: 2em;
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
     }
-    iframe {
-      width: 100%;
-      height: 700px;
-      border: none;
-      margin-top: 2em;
+
+    .hero {
+      text-align: center;
     }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .launch-button {
+      display: inline-block;
+      padding: 1rem 2rem;
+      background-color: #28a745;
+      color: white;
+      font-size: 1.2rem;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .launch-button:hover {
+      background-color: #218838;
+    }
+
+    .section {
+      margin-top: 3rem;
+    }
+
+    .section h2 {
+      color: #004225;
+    }
+
     footer {
-      background: #eee;
-      padding: 1em;
-      margin-top: 2em;
+      background-color: #002d1c;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 1rem;
+      margin-top: 3rem;
+    }
+
+    footer a {
+      color: #80e4c3;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
     }
   </style>
 </head>
 <body>
+
   <header>
+    <!-- Placeholder Logo (you can replace this image later) -->
+    <img src="https://via.placeholder.com/120x120?text=Logo" alt="Talenta Logo" />
     <h1>Talenta AI Career Coach</h1>
-    <p>Get instant, personalized career guidance with AI</p>
+    <p>AI-powered career coach that guides you step-by-step</p>
   </header>
 
   <div class="container">
-    <h2>Try it Now 👇</h2>
-    
-    <!-- Replace this link with your actual PartyRock app link -->
-       <a href="https://partyrock.aws/u/tomiti/geUHQR6vg/Talenta-AI-Career-Coach" target="_blank" style="
-  display: inline-block;
-  padding: 15px 30px;
-  background-color: #28a745;
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-  border-radius: 8px;
-">
+    <section class="hero">
+      <a href="https://partyrock.aws/u/tomiti/geUHQR6vg/Talenta-AI-Career-Coach" 
+         target="_blank" 
+         class="launch-button">
+        🚀 Launch Talenta AI
+      </a>
+    </section>
 
+    <section class="section">
+      <h2>About Talenta AI</h2>
+      <p>Talenta AI Career Coach is your intelligent partner in building a successful tech career. It provides step-by-step guidance, personalized learning paths, and insights into in-demand roles — all powered by AI.</p>
+    </section>
+
+    <section class="section">
+      <h2>Key Features</h2>
+      <ul>
+        <li>💡 Personalized career path suggestions</li>
+        <li>📚 Learning resources and certification tips</li>
+        <li>🎯 Goal tracking and progress insights</li>
+        <li>🤖 Built with Amazon Bedrock’s PartyRock platform</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Contact</h2>
+      <p>📧 Email: <a href="mailto:tomiti2552@gmail.com">tomiti2552@gmail.com</a></p>
+    </section>
   </div>
 
   <footer>
-    &copy; 2025 Talenta AI. Built with ❤️ using AWS PartyRock.
+    <p>© 2025 Talenta AI Career Coach — Built by Thomas Debebe</p>
+    <a href="https://github.com/Tommyjah" target="_blank">GitHub</a> |
+    <a href="https://www.linkedin.com/in/thomas-debebe" target="_blank">LinkedIn</a>
   </footer>
+
 </body>
 </html>
